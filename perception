@@ -106,3 +106,12 @@ mp.activation_fn(10)
 
 # Soru 3:
 # X değerleri imzaların yükseklik*genişlik*3 olan bir sütun vektör, d değerleri imzaların karşılıkları olurdu.
+3.soru:
+Input, yükseklik-genişlik değerleri m,n ise mxnx3 bir veri olur.
+Bunu vektör olarak düşünüyoruz ve image_1.reshape(mxnx3,1) ile sütun vektör olarak gösteriyoruz. 
+X, 40 imza için her bir sütunda 1 kişiye ait imza resmi olmak üzere (mxnx3,40)'lık bir matris olacaktır, d ise 40 farklı değer olacaktır.
+
+4.soru:
+Perceptron için input iki tane bool değerdir.Çıktı ise iki bool input değerine karşılık bir sonuç.
+ Ancak imza olayında input (mxnx3,40) lık bir matris ve çıktı ise 40 farklı değerdir.
+ Perceptron bunu tanıma yeteneğine sahip değildir.
